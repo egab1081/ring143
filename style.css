@@ -1,0 +1,70 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.play_img {
+	width: 50px;
+	height: 50px;
+}
+.download_img {
+	width: 50px;
+	height: 50px;
+/*	margin-left: auto;//прижать к правому краю только этот элемент*/
+}
+.title {
+	margin: 0;
+	font-size: 40px;
+	font-style: normal;
+}
+.main {
+	display: flex;
+	justify-content: center;
+	background-color: #f0f0f0;
+}
+.main-inner {
+	width: 1080px;
+	display: flex;
+	flex-direction: column;
+	background-color: #b4b4b4;
+}
+.main-inner-head {
+	display: flex;
+	flex-direction: row;
+}
+.main-inner-head-cover {
+
+}
+.main-inner-head-cover_img {
+	width: 240px;
+	height: 240px;
+}
+.main-inner-songs {
+	margin: 0;
+	padding: 0;
+	width: 760px;
+}
+.main-inner-songs_song1 {
+	margin: 0;
+	padding: 0;
+/*	width: 350px;*/
+	display: flex;
+	flex-direction: row;
+/*	justify-content: space-between;*/
+}
+.main-inner-songs_song1_name {
+	margin: 9px 0px 0px 0px;
+	font-size: 25px;
+	font-style: normal;
+	overflow: hidden;
+	white-space: nowrap;
+/*	text-overflow: ellipsis;//многоточие*/
+}
+.oldReleases_img {
+	width: 160px;
+	height: 160px;
+}
