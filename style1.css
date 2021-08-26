@@ -1,0 +1,13 @@
+body{
+	background-image: url(img/bg.jpg);
+	background-size: cover;
+}
+header {
+	text-align: center;
+}
+.main {
+	--bs-bg-opacity: 0.5;
+}
+.about-track {
+	padding: 0;
+}

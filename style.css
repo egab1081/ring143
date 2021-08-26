@@ -11,10 +11,14 @@ header {
 	width: 50px;
 	height: 50px;
 }
+.play_img1 {
+	width: 50px;
+	height: 50px;
+}
 .download_img {
 	width: 50px;
 	height: 50px;
-/*	margin-left: auto;//прижать к правому краю только этот элемент*/
+	margin-left: auto;//прижать к правому краю только этот элемент
 }
 .title {
 	margin: 0;
@@ -24,13 +28,13 @@ header {
 .main {
 	display: flex;
 	justify-content: center;
-	background-color: #f0f0f0;
+	/*background-color: #f0f0f0;*/
 }
 .main-inner {
 	width: 1080px;
 	display: flex;
 	flex-direction: column;
-	background-color: #b4b4b4;
+	/*background-color: #b4b4b4;*/
 }
 .main-inner-head {
 	display: flex;
@@ -43,10 +47,17 @@ header {
 	width: 240px;
 	height: 240px;
 }
+.main-inner-head-info_album {
+	font-size: 20px;
+	color: silver;
+}
+.main-inner-head-info_name {
+	font-size: 36px;
+}
 .main-inner-songs {
 	margin: 0;
 	padding: 0;
-	width: 760px;
+	width: 500px;
 }
 .main-inner-songs_song1 {
 	margin: 0;
@@ -62,7 +73,7 @@ header {
 	font-style: normal;
 	overflow: hidden;
 	white-space: nowrap;
-/*	text-overflow: ellipsis;//многоточие*/
+	text-overflow: ellipsis;//многоточие
 }
 .oldReleases_img {
 	width: 160px;
